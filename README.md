@@ -1,49 +1,12 @@
-🎬 Movie Explorer App
+# React + Vite
 
-A React-based movie browsing application that lets users explore movies, search and filter results, view detailed pages, and manage personalized lists such as Liked Movies and Watchlist.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🚀 Features
+Currently, two official plugins are available:
 
-🔍 Search and filter movies by title, genre, or year
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-❤️ Like/Unlike movies and view them in a dedicated Liked Movies page
+## Expanding the ESLint configuration
 
-📌 Add movies to a Watchlist for later viewing
-
-📖 View detailed movie pages with description, rating, and poster
-
-⚡ Smooth navigation with React Router v6
-
-🗄️ Backend powered by JSON Server (mock API)
-
-🛠️ Tech Stack
-
-Frontend: React.js, React Router v6
-
-Backend: JSON Server (mock REST API)
-
-Data Fetching: Axios / Fetch API
-
-Styling: Bootstrap + Custom CSS
-
-📦 Installation
-
-Clone the repository
-
-git clone https://github.com/your-username/movie-explorer.git
-cd movie-explorer
-
-
-Install dependencies
-
-npm install
-
-
-Start JSON Server (make sure you have db.json ready)
-
-npx json-server --watch db.json --port 3000
-
-
-Start the React app
-
-npm start
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
